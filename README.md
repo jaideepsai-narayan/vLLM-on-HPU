@@ -3,8 +3,7 @@
 ### Prerequisites
 - Habana Gaudi2 drivers installed on the host.
 
-![image](https://github.com/user-attachments/assets/fec852b7-cb72-4233-bb6b-d8294ce142b8)
-
+<img src="https://github.com/user-attachments/assets/fec852b7-cb72-4233-bb6b-d8294ce142b8" width="500"/>
   
 - Docker configured with Habana runtime.
 - Hugging Face Hub token (for gated models).
@@ -42,8 +41,7 @@
 
 - **Test the API**
   
-  ![image](https://github.com/user-attachments/assets/bf397d7c-413a-4a27-90f1-d9a5dec11002)
-  
+  <img src="https://github.com/user-attachments/assets/bf397d7c-413a-4a27-90f1-d9a5dec11002" width="500"/>
 
   Wait until the server logs show:
   ```
@@ -62,7 +60,7 @@
     }'
   ```
 
-  ![image](https://github.com/user-attachments/assets/1cf5f2d6-51dd-442a-8ae0-c23ac147d913)
+  <img src="https://github.com/user-attachments/assets/1cf5f2d6-51dd-442a-8ae0-c23ac147d913" width="500"/>
 
 
 ### Note
