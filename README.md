@@ -1,4 +1,4 @@
-# Run vLLM on Habana Gaudi2 with Docker
+# Run vLLM on Habana Gaudi2 with Docker (Online serving)
 
 ### Prerequisites
 - Habana Gaudi2 drivers installed on the host.
@@ -70,5 +70,5 @@
 - Adjust --tensor-parallel-size based on your HPU configuration (e.g., 8 for 8 HPUs).
 
 - For private/gated models, replace hf_xxxxxxxxxxxx with your Hugging Face token.
-
-
+  
+- [Offline serving](https://docs.vllm.ai/en/stable/serving/offline_inference.html ) 
