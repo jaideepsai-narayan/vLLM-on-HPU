@@ -53,15 +53,17 @@
   Then, in a new terminal, run:
 
   ```
-  curl http://localhost:8000/v1/chat/completions \
-  -H "Content-Type: application/json" \
-  -d '{
-    "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
-    "messages": [
-      {"role": "user", "content": "tell me about yourself ?"}
-    ]
-  }'
+  curl http://localhost:8000/v1/completions \
+    -H "Content-Type: application/json" \
+    -d '{
+        "prompt": "San Francisco is a",
+        "max_tokens": 7,
+        "temperature": 0
+    }'
   ```
+
+  ![image](https://github.com/user-attachments/assets/1cf5f2d6-51dd-442a-8ae0-c23ac147d913)
+
 
 ### Note
 
