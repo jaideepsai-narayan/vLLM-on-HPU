@@ -2,6 +2,10 @@
 
 ### Prerequisites
 - Habana Gaudi2 drivers installed on the host.
+
+![image](https://github.com/user-attachments/assets/fec852b7-cb72-4233-bb6b-d8294ce142b8)
+
+  
 - Docker configured with Habana runtime.
 - Hugging Face Hub token (for gated models).
 
@@ -37,6 +41,9 @@
   ```
 
 - **Test the API**
+  
+  ![image](https://github.com/user-attachments/assets/bf397d7c-413a-4a27-90f1-d9a5dec11002)
+  
 
   Wait until the server logs show:
   ```
