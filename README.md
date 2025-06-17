@@ -13,14 +13,14 @@
 - **Clone the vLLM Repository**
   
   ```
-  git clone https://github.com/vllm-project/vllm.git
-  cd vllm/docker
+  git clone https://github.com/HabanaAI/vllm-fork.git
+  cd vllm
   ```
   
 - **Build the Docker Image**
 
   ```
-  docker build . -t vllm_hpu -f Dockerfile.hpu
+  docker build . -t vllm_hpu -f ./docker/Dockerfile.hpu
   ```
   
 - **Run the Container**
