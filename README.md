@@ -14,7 +14,7 @@
   
   ```
   git clone https://github.com/HabanaAI/vllm-fork.git
-  cd vllm
+  cd vllm-fork
   ```
   
 - **Build the Docker Image**
